@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  font: 100 13px/20px helvetica, arial, sans-serif;
+  background: #000
+}
+
+div#frame {
+  width: 2120px;
+  height: 787px;
+  background: url(son2kdd.jpeg) no-repeat center -80px;
+  position: relative
+}
+
+div#frame p>a {
+  color: inherit;
+  text-decoration: none
+}
+
+div#frame p {
+  margin: 0;
+  padding: 0;
+  margin: 5px 0 0 5px;
+  cursor: default
+}
+
+div#frame p#tit {
+  font: 100 32px/30px georgia;
+  font-variant: small-caps;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(255,255,255,0.6);
+  margin-bottom: 10px
+}
+
+div#frame p#it {
+  font: 100 10px/5px georgia;
+  color: #ccc
+}
+
+div#frame p#t {
+  font: 100 10px/5px georgia;
+  color: #ccc;
+  border-bottom: 1px dotted #777;
+  display: inline
+}
+
+div#fader {
+  position: absolute;
+  border-top: 1px solid rgba(255,255,255,0.5);
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  display: none;
+  font-size: 1px;
+  line-height: 0;
+  -webkit-border-radius: 300px;
+  -moz-border-radius: 300px;
+  border-radius: 300px;
+  -webkit-box-shadow: 0 0 20px 5px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0 0 20px 5px rgba(0,0,0,0.4);
+  box-shadow: 0 0 20px 5px rgba(0,0,0,0.4)
+}
+
+div#fader img {
+  -webkit-border-radius: 6px;
+  margin: 0 !important;
+  padding: 0 !important;
+  cursor: pointer;
+  -webkit-border-radius: 300px;
+  -moz-border-radius: 300px;
+  border-radius: 300px
+}
+
+span.benek {
+  position: absolute;
+  display: block;
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgba(0,0,0,0.4);
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  cursor: pointer;
+  -webkit-box-shadow: 1px 1px 4px 0 rgba(255,255,255,0.2);
+  -moz-box-shadow: 1px 1px 4px 0 rgba(255,255,255,0.2);
+  box-shadow: 1px 1px 4px 0 rgba(255,255,255,0.2);
+  font: bold 10px/100px "";
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+span.benek:hover {
+  background: rgba(0,0,0,0.3);
+}
+
+span#altair {
+  left: 410px;
+  top: 268px;
+}
+
+span#lyra {
+  left: 740px;
+  top: 650px;
+}
+
+span#northamerica {
+  left: 1020px;
+  top: 350px;
+}
+
+span#ic1396 {
+  left: 1240px;
+  top: 470px;
+}
+
+span#andromeda {
+  left: 1673px;
+  top: 92px;
+}
+
+span#doublecluster {
+  left: 1790px;
+  top: 485px;
+}
+
+div.altairf {
+  left: 310px;
+  top: 378px
+}
+
+div.lyraf {
+  left: 640px;
+  top: 340px
+}
+
+div.northamericaf {
+  left: 920px;
+  top: 40px
+}
+
+div.ic1396f {
+  left: 1140px;
+  top: 160px
+}
+
+div.andromedaf {
+  left: 1573px;
+  top: 202px
+}
+
+div.doubleclusterf {
+  left: 1690px;
+  top: 175px
+}
